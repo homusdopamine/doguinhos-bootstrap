@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"
+    />
+    <title>Doguinho's</title>
+    <link rel="icon" type="image/png" href="img/emergencia.png">
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#menu">
+    <div id="topo" class="container">
+      <header id="header"
+        class="bg-light sticky-top d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <use xlink:href="#bootstrap"></use>
+
+          <span class="fs-4 fw-bold text-primary"
+            ><i class="mdi mdi-dog">Doguinho's</i></span
+          >
+        </a>
+
+        <ul id="menu" class="nav nav-pills">
+          <div class="form-check form-switch ms-auto mt-3 me-3">
+            <label class="form-check-label ms-3" for="lightSwitch">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-brightness-high"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                />
+              </svg>
+            </label>
+            <input class="form-check-input" type="checkbox" id="lightSwitch" />
+          </div>
+          <li class="nav-item">
+            <a href="#topo" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="#precos" class="nav-link">Preços</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </header>
+
+      <section class="mb-5">
+        <div class="row text-center text-md-start">
+          <div class="col-md-6 mt-3">
+            <h2 class="mt-5 fs-5">Aqui o seu amigo é tratado com carinho</h2>
+            <h1 class="display-2 fw-bold">Clínica veterinária</h1>
+            <p class="mt-4 text-secondary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              perspiciatis suscipit ratione dolore odit necessitatibus inventore
+              nobis, tenetur quae autem, maxime odio saepe nesciunt dignissimos
+              aperiam vero unde error eum!
+              <a href="#" class="fw-bold mt-5 w-50 p-4 btn btn-primary"
+                >Agendar Consulta <i class="mdi mdi-arrow-right-thick"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player
+              class="m-0 m-auto float-none float-md-end"
+              src="https://assets2.lottiefiles.com/packages/lf20_sYVZ3n.json"
+              background="transparent"
+              speed="1"
+              style="max-width: 80%"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+      </section>
+      <section id="servicos" class="text-center py-5 my-5">
+        <div class="row pt-5 mt-5">
+          <div class="col-12">
+            <h2 class="display-5 fw-bold mt-3">Serviços Prestados</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 mt-5">
+            <img
+              class="shadow p-5"
+              src="./img/vacinado.png"
+              alt="Icone de vacina"
+            />
+
+            <h2 class="fw-normal">Vacinação</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4 mt-5">
+            <img
+              class="shadow p-5"
+              src="./img/emergencia.png"
+              alt="Icone de veterinario"
+            />
+
+            <h2 class="fw-normal">Emergências</h2>
+            <p>
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            </p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4 mt-5">
+            <img class="shadow p-5" src="./img/raio x.png" alt="" />
+
+            <h2 class="fw-normal">Raio-X</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+      </section>
+      <section id="precos" class="pt-5 mt-5">
+        <div class="pricing-header pt-5 mt-5 text-center">
+          <h2 class="display-4 fw-bold">Preços</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div
+                class="card-header py-3 text-white bg-primary border-primary"
+              >
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body bg-light">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Contact us
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div
+                class="card-header py-3 text-white bg-primary border-primary"
+              >
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body bg-light">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Contact us
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div
+                class="card-header py-3 text-white bg-primary border-primary"
+              >
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body bg-light">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq" class="py-5 my-5">
+        <div class="row pt-5 mt-5">
+          <div class="col-12 text-center">
+            <h2 class="display-5 fw-bold">Perguntas Frequentes</h2>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header " id="headingOne">
+                  <button
+                    class="accordion-button text-primary bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body bg-light text-secondary">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Aut architecto a, quis optio natus suscipit sed cupiditate
+                    voluptates ratione, itaque repudiandae culpa ad doloribus in
+                    iusto blanditiis totam et assumenda.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed text-primary bg-light"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body bg-light text-secondary">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Mollitia esse vitae, delectus repellat illo amet magnam!
+                    Laboriosam quisquam autem, voluptate officia ipsum libero
+                    velit ipsam, corrupti quaerat maxime facere mollitia.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed bg-light text-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse text-secondary bg-light"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body bg-light text-secondary">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tenetur iusto voluptatibus quibusdam reiciendis consequuntur
+                    temporibus ipsum porro suscipit, assumenda cupiditate
+                    dolorem? Eaque minus suscipit fugit tempora ipsam quisquam
+                    iure modi.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="py-5 my-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-5 fw-bold">Contato</h2>
+          </div>
+        </div>
+        <div class="row align-items-md-stretch text-center">
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Fale conosco</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur quis ullam reiciendis tenetur exercitationem, nemo
+                voluptatem aperiam ad aliquam quas eaque error ipsam aliquid,
+                voluptatum, magni iure incidunt veniam id?
+                <p class="mt-4"> <i class="mdi mdi-phone"></i>(##) 1234-5678</p>
+                <p class=""> <i class="mdi mdi-email"></i>email@example.com</p>
+              </p>
+              <button class="btn btn-success w-75 p-3 mt-5" type="button">
+               <i class="mdi mdi-whatsapp"></i> WhatsApp
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Endereço</h2>
+              <p>Rua ABC, 123, Rio de Janeiro</p>
+              <iframe class="m-0 m-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.95427460568!2d-43.21267588555907!3d-22.951911045251773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fd5984aa13f%3A0x9dc984d7019502de!2sCristo%20Redentor!5e0!3m2!1spt-BR!2sbr!4v1652733894309!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="container mt-5 p-5" >
+        <p class="float-end"><a href="#"><button class="btn btn-secondary"><i class="mdi mdi-arrow-up-bold"></i> Voltar para o topo</button></a></p>
+        <p>©2022 <i class="mdi mdi-dog"></i> Doguinho's | Clínica Veterinária<a class="ms-5" href="#">Política de privacidade</a> · <a href="#">Termos</a></p>
+      </footer>
+    </div>
+
+    <!--JS POPPER -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/switch.js"></script>
+  </body>
+</html>
